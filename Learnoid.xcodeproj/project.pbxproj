@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79AD623B1CEA79BA00D0D96F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AD623A1CEA79BA00D0D96F /* AppDelegate.swift */; };
+		79AD623D1CEA79BA00D0D96F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AD623C1CEA79BA00D0D96F /* ViewController.swift */; };
+		79AD62401CEA79BA00D0D96F /* Learnoid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79AD623E1CEA79BA00D0D96F /* Learnoid.xcdatamodeld */; };
+		79AD62421CEA79BA00D0D96F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79AD62411CEA79BA00D0D96F /* Assets.xcassets */; };
+		79AD62451CEA79BA00D0D96F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79AD62431CEA79BA00D0D96F /* Main.storyboard */; };
+		79AD62501CEA79BA00D0D96F /* LearnoidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AD624F1CEA79BA00D0D96F /* LearnoidTests.swift */; };
+		79AD625B1CEA79BA00D0D96F /* LearnoidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AD625A1CEA79BA00D0D96F /* LearnoidUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79AD624C1CEA79BA00D0D96F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79AD622F1CEA79BA00D0D96F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79AD62361CEA79BA00D0D96F;
+			remoteInfo = Learnoid;
+		};
+		79AD62571CEA79BA00D0D96F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79AD622F1CEA79BA00D0D96F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79AD62361CEA79BA00D0D96F;
+			remoteInfo = Learnoid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79AD62371CEA79BA00D0D96F /* Learnoid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Learnoid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79AD623A1CEA79BA00D0D96F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79AD623C1CEA79BA00D0D96F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79AD623F1CEA79BA00D0D96F /* Learnoid.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Learnoid.xcdatamodel; sourceTree = "<group>"; };
+		79AD62411CEA79BA00D0D96F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79AD62441CEA79BA00D0D96F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79AD62461CEA79BA00D0D96F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79AD624B1CEA79BA00D0D96F /* LearnoidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnoidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79AD624F1CEA79BA00D0D96F /* LearnoidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnoidTests.swift; sourceTree = "<group>"; };
+		79AD62511CEA79BA00D0D96F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79AD62561CEA79BA00D0D96F /* LearnoidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnoidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79AD625A1CEA79BA00D0D96F /* LearnoidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnoidUITests.swift; sourceTree = "<group>"; };
+		79AD625C1CEA79BA00D0D96F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79AD62341CEA79BA00D0D96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AD62481CEA79BA00D0D96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AD62531CEA79BA00D0D96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79AD622E1CEA79BA00D0D96F = {
+			isa = PBXGroup;
+			children = (
+				79AD62391CEA79BA00D0D96F /* Learnoid */,
+				79AD624E1CEA79BA00D0D96F /* LearnoidTests */,
+				79AD62591CEA79BA00D0D96F /* LearnoidUITests */,
+				79AD62381CEA79BA00D0D96F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79AD62381CEA79BA00D0D96F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79AD62371CEA79BA00D0D96F /* Learnoid.app */,
+				79AD624B1CEA79BA00D0D96F /* LearnoidTests.xctest */,
+				79AD62561CEA79BA00D0D96F /* LearnoidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79AD62391CEA79BA00D0D96F /* Learnoid */ = {
+			isa = PBXGroup;
+			children = (
+				79AD623A1CEA79BA00D0D96F /* AppDelegate.swift */,
+				79AD623C1CEA79BA00D0D96F /* ViewController.swift */,
+				79AD62411CEA79BA00D0D96F /* Assets.xcassets */,
+				79AD62431CEA79BA00D0D96F /* Main.storyboard */,
+				79AD62461CEA79BA00D0D96F /* Info.plist */,
+				79AD623E1CEA79BA00D0D96F /* Learnoid.xcdatamodeld */,
+			);
+			path = Learnoid;
+			sourceTree = "<group>";
+		};
+		79AD624E1CEA79BA00D0D96F /* LearnoidTests */ = {
+			isa = PBXGroup;
+			children = (
+				79AD624F1CEA79BA00D0D96F /* LearnoidTests.swift */,
+				79AD62511CEA79BA00D0D96F /* Info.plist */,
+			);
+			path = LearnoidTests;
+			sourceTree = "<group>";
+		};
+		79AD62591CEA79BA00D0D96F /* LearnoidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79AD625A1CEA79BA00D0D96F /* LearnoidUITests.swift */,
+				79AD625C1CEA79BA00D0D96F /* Info.plist */,
+			);
+			path = LearnoidUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79AD62361CEA79BA00D0D96F /* Learnoid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79AD625F1CEA79BA00D0D96F /* Build configuration list for PBXNativeTarget "Learnoid" */;
+			buildPhases = (
+				79AD62331CEA79BA00D0D96F /* Sources */,
+				79AD62341CEA79BA00D0D96F /* Frameworks */,
+				79AD62351CEA79BA00D0D96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Learnoid;
+			productName = Learnoid;
+			productReference = 79AD62371CEA79BA00D0D96F /* Learnoid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79AD624A1CEA79BA00D0D96F /* LearnoidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79AD62621CEA79BA00D0D96F /* Build configuration list for PBXNativeTarget "LearnoidTests" */;
+			buildPhases = (
+				79AD62471CEA79BA00D0D96F /* Sources */,
+				79AD62481CEA79BA00D0D96F /* Frameworks */,
+				79AD62491CEA79BA00D0D96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79AD624D1CEA79BA00D0D96F /* PBXTargetDependency */,
+			);
+			name = LearnoidTests;
+			productName = LearnoidTests;
+			productReference = 79AD624B1CEA79BA00D0D96F /* LearnoidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79AD62551CEA79BA00D0D96F /* LearnoidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79AD62651CEA79BA00D0D96F /* Build configuration list for PBXNativeTarget "LearnoidUITests" */;
+			buildPhases = (
+				79AD62521CEA79BA00D0D96F /* Sources */,
+				79AD62531CEA79BA00D0D96F /* Frameworks */,
+				79AD62541CEA79BA00D0D96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79AD62581CEA79BA00D0D96F /* PBXTargetDependency */,
+			);
+			name = LearnoidUITests;
+			productName = LearnoidUITests;
+			productReference = 79AD62561CEA79BA00D0D96F /* LearnoidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79AD622F1CEA79BA00D0D96F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Panayiotis Stylianou";
+				TargetAttributes = {
+					79AD62361CEA79BA00D0D96F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					79AD624A1CEA79BA00D0D96F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 79AD62361CEA79BA00D0D96F;
+					};
+					79AD62551CEA79BA00D0D96F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 79AD62361CEA79BA00D0D96F;
+					};
+				};
+			};
+			buildConfigurationList = 79AD62321CEA79BA00D0D96F /* Build configuration list for PBXProject "Learnoid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79AD622E1CEA79BA00D0D96F;
+			productRefGroup = 79AD62381CEA79BA00D0D96F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79AD62361CEA79BA00D0D96F /* Learnoid */,
+				79AD624A1CEA79BA00D0D96F /* LearnoidTests */,
+				79AD62551CEA79BA00D0D96F /* LearnoidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79AD62351CEA79BA00D0D96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79AD62421CEA79BA00D0D96F /* Assets.xcassets in Resources */,
+				79AD62451CEA79BA00D0D96F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AD62491CEA79BA00D0D96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AD62541CEA79BA00D0D96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79AD62331CEA79BA00D0D96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79AD623D1CEA79BA00D0D96F /* ViewController.swift in Sources */,
+				79AD62401CEA79BA00D0D96F /* Learnoid.xcdatamodeld in Sources */,
+				79AD623B1CEA79BA00D0D96F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AD62471CEA79BA00D0D96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79AD62501CEA79BA00D0D96F /* LearnoidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AD62521CEA79BA00D0D96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79AD625B1CEA79BA00D0D96F /* LearnoidUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79AD624D1CEA79BA00D0D96F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79AD62361CEA79BA00D0D96F /* Learnoid */;
+			targetProxy = 79AD624C1CEA79BA00D0D96F /* PBXContainerItemProxy */;
+		};
+		79AD62581CEA79BA00D0D96F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79AD62361CEA79BA00D0D96F /* Learnoid */;
+			targetProxy = 79AD62571CEA79BA00D0D96F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79AD62431CEA79BA00D0D96F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79AD62441CEA79BA00D0D96F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79AD625D1CEA79BA00D0D96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79AD625E1CEA79BA00D0D96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		79AD62601CEA79BA00D0D96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Learnoid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pan.Learnoid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79AD62611CEA79BA00D0D96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Learnoid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pan.Learnoid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		79AD62631CEA79BA00D0D96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LearnoidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pan.LearnoidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learnoid.app/Contents/MacOS/Learnoid";
+			};
+			name = Debug;
+		};
+		79AD62641CEA79BA00D0D96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LearnoidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pan.LearnoidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learnoid.app/Contents/MacOS/Learnoid";
+			};
+			name = Release;
+		};
+		79AD62661CEA79BA00D0D96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LearnoidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pan.LearnoidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Learnoid;
+			};
+			name = Debug;
+		};
+		79AD62671CEA79BA00D0D96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LearnoidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pan.LearnoidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Learnoid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79AD62321CEA79BA00D0D96F /* Build configuration list for PBXProject "Learnoid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79AD625D1CEA79BA00D0D96F /* Debug */,
+				79AD625E1CEA79BA00D0D96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79AD625F1CEA79BA00D0D96F /* Build configuration list for PBXNativeTarget "Learnoid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79AD62601CEA79BA00D0D96F /* Debug */,
+				79AD62611CEA79BA00D0D96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79AD62621CEA79BA00D0D96F /* Build configuration list for PBXNativeTarget "LearnoidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79AD62631CEA79BA00D0D96F /* Debug */,
+				79AD62641CEA79BA00D0D96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79AD62651CEA79BA00D0D96F /* Build configuration list for PBXNativeTarget "LearnoidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79AD62661CEA79BA00D0D96F /* Debug */,
+				79AD62671CEA79BA00D0D96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		79AD623E1CEA79BA00D0D96F /* Learnoid.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				79AD623F1CEA79BA00D0D96F /* Learnoid.xcdatamodel */,
+			);
+			currentVersion = 79AD623F1CEA79BA00D0D96F /* Learnoid.xcdatamodel */;
+			path = Learnoid.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 79AD622F1CEA79BA00D0D96F /* Project object */;
+}
