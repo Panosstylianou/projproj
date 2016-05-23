@@ -952,20 +952,6 @@ NSString * const HTMLSelectorLocationErrorKey = @"HTMLSelectorLocation";
 	return ret;
 }
 
-- (HTMLArrayOf(HTMLElement *) *)nodesMatchingParsedSelectors:(HTMLSelector *) selector
-{
-    if (selector.error) {
-        @throw [NSException exceptionWithName:NSInvalidArgumentException reason:[NSString stringWithFormat:@"Attempted to use selector with error: %@", selector.error] userInfo:nil];
-    }
-    
-    NSMutableArray *ret = [NSMutableArray new];
-    for (HTMLElement *node in self.treeEnumerator) {
-        if ([node isKindOfClass:[HTMLElement class]] && [selector matchesElement:node]) {
-            [ret addObject:node];
-        }
-    }
-    return ret;
-}
 
 - (HTMLElement * __nullable)firstNodeMatchingParsedSelector:(HTMLSelector *)selector
 {
