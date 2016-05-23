@@ -307,7 +307,7 @@ private func genCombinator(inout str: String, skip: Bool = true) -> String? {
         if skip {
             str = str.substringFromIndex(str.startIndex.advancedBy(result.range.length))
         }
-        
+    
         switch one {
         case ">":
             return "/"

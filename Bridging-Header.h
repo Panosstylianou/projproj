@@ -11,3 +11,7 @@
 
 
 #endif /* Bridging_Header_h */
+
+#import "DDHotKeyCenter.h"
+#import "DDHotKeyTextField.h"
+#import "DDHotKeyUtilities.h"

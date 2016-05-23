@@ -1,0 +1,6 @@
+framework module Pods_Learnoid {
+  umbrella header "Pods-Learnoid-umbrella.h"
+
+  export *
+  module * { export * }
+}

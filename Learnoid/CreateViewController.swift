@@ -11,7 +11,6 @@ import Carbon
 import Foundation
 
 
-
 class CreateViewController: NSViewController {
     @IBOutlet weak var secondLabel: NSTextField!
     
@@ -126,7 +125,7 @@ class CreateViewController: NSViewController {
         
 //        newItem.title = "THis is the title"
         
-        var mySet = Set<Step>()
+//        var mySet = Set<Step>()
         var count = 0
         for step in lesson{
             

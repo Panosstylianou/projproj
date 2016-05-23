@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10117"/>
@@ -665,10 +665,47 @@
             </objects>
             <point key="canvasLocation" x="75" y="250"/>
         </scene>
+        <!--WebsiteVC-->
+        <scene sceneID="b7R-on-BOl">
+            <objects>
+                <viewController id="gZM-2Y-Hcb" customClass="WebsiteVC" customModule="Learnoid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="3O5-P7-Us7">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="495"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ybe-tM-HIN">
+                                <rect key="frame" x="167" y="295" width="115" height="32"/>
+                                <buttonCell key="cell" type="push" title="Get Website" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="7We-3w-ND1">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="getWebsite:" target="gZM-2Y-Hcb" id="1wj-lz-Uh7"/>
+                                </connections>
+                            </button>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oIk-v9-l9o">
+                                <rect key="frame" x="106" y="398" width="254" height="22"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="tic-Sm-Qev">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="getButton" destination="Ybe-tM-HIN" id="eqZ-j2-UPt"/>
+                        <outlet property="textField" destination="oIk-v9-l9o" id="Qu7-Ex-vlg"/>
+                    </connections>
+                </viewController>
+                <customObject id="zXa-kU-CcV" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-511" y="770.5"/>
+        </scene>
         <!--MainVC-->
         <scene sceneID="fDt-up-IBe">
             <objects>
-                <viewController storyboardIdentifier="sourceViewController" id="rYj-q2-AAW" customClass="MainVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sourceViewController" id="rYj-q2-AAW" customClass="MainVC" customModule="Learnoid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="ydC-qc-cml">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="495"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -680,7 +717,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="create:" target="rYj-q2-AAW" id="lDJ-GR-JIE"/>
+                                    <action selector="create:" target="rYj-q2-AAW" id="2dE-FI-LLj"/>
                                 </connections>
                             </button>
                             <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X6g-kG-eYY">
@@ -690,6 +727,13 @@
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
+                                <connections>
+                                    <binding destination="w8f-tb-C6L" name="displayPatternValue1" keyPath="values.firstLabel" id="wFm-mp-HkF">
+                                        <dictionary key="options">
+                                            <string key="NSDisplayPattern">%{value1}@</string>
+                                        </dictionary>
+                                    </binding>
+                                </connections>
                             </textField>
                             <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="inF-sF-4hc">
                                 <rect key="frame" x="18" y="265" width="214" height="49"/>
@@ -698,6 +742,13 @@
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
+                                <connections>
+                                    <binding destination="w8f-tb-C6L" name="displayPatternValue1" keyPath="values.secondLabel" id="KYd-rF-MAc">
+                                        <dictionary key="options">
+                                            <string key="NSDisplayPattern">%{value1}@</string>
+                                        </dictionary>
+                                    </binding>
+                                </connections>
                             </textField>
                             <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QPz-4A-TL1">
                                 <rect key="frame" x="18" y="371" width="174" height="50"/>
@@ -714,7 +765,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="start:" target="rYj-q2-AAW" id="xN4-4T-FO1"/>
+                                    <action selector="start:" target="rYj-q2-AAW" id="tIk-LX-y0c"/>
                                 </connections>
                             </button>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RqR-5c-Dfa">
@@ -732,7 +783,17 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="lessons:" target="rYj-q2-AAW" id="hrz-fv-3OT"/>
+                                    <action selector="lessons:" target="rYj-q2-AAW" id="ddv-zL-dOZ"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8yN-gE-vzc">
+                                <rect key="frame" x="170" y="70" width="124" height="32"/>
+                                <buttonCell key="cell" type="push" title="From Website" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="kDu-A4-aC4">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="goToWebsite:" target="rYj-q2-AAW" id="En5-Cr-sbJ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -746,9 +807,11 @@
                         <outlet property="thirdLabel" destination="QPz-4A-TL1" id="5Gk-84-5FB"/>
                         <segue destination="3km-df-mFV" kind="custom" identifier="createSegue" customClass="CrossfadeStoryboard" customModule="Learnoid" customModuleProvider="target" id="zss-GX-L5z"/>
                         <segue destination="CbT-TY-Anl" kind="custom" identifier="lessonsSegue" customClass="CrossfadeStoryboard" customModule="Learnoid" customModuleProvider="target" id="MdA-6a-sso"/>
+                        <segue destination="gZM-2Y-Hcb" kind="custom" identifier="websiteSegue" customClass="CrossfadeStoryboard" customModule="Learnoid" customModuleProvider="target" id="G48-Gu-wwE"/>
                     </connections>
                 </viewController>
                 <customObject id="pMb-gF-jwc" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+                <userDefaultsController representsSharedInstance="YES" id="w8f-tb-C6L"/>
             </objects>
             <point key="canvasLocation" x="43" y="770.5"/>
         </scene>
@@ -819,7 +882,7 @@
                                                     <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                     <prototypeCellViews>
                                                         <tableCellView id="S1g-pW-Ybx">
-                                                            <rect key="frame" x="120" y="1" width="226" height="17"/>
+                                                            <rect key="frame" x="119.66957912169472" y="1" width="226" height="17"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
                                                                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7SE-dD-sXC">

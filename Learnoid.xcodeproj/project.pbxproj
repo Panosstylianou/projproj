@@ -7,13 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6608488DB0CF4353EA1CB00F /* Pods_Learnoid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F760A1E12AE56953DDBF7EF /* Pods_Learnoid.framework */; };
+		775DE439BA8BB920A454C88C /* Pods_LearnoidUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F67F22CDBEC0F976C47E89 /* Pods_LearnoidUITests.framework */; };
+		791EB2601CEA92A300DC02BF /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AD626C1CEA7A5900D0D96F /* CreateViewController.swift */; };
+		791EB2611CEA939F00DC02BF /* Learnoid-Bridging-Header.h in Resources */ = {isa = PBXBuildFile; fileRef = 792F9CF41CEA7F7A00AFE97C /* Learnoid-Bridging-Header.h */; };
+		791EB2621CEA958C00DC02BF /* Lesson(object).swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AD62961CEA7B9A00D0D96F /* Lesson(object).swift */; };
+		791EB2631CEA96B500DC02BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79AD62681CEA79E500D0D96F /* Main.storyboard */; };
+		791EB2641CEAA02600DC02BF /* DDHotKeyUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AD62831CEA7AFF00D0D96F /* DDHotKeyUtilities.m */; };
+		791EB2651CEAA02D00DC02BF /* DDHotKeyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AD62811CEA7AFF00D0D96F /* DDHotKeyTextField.m */; };
+		79A637621CED28C9005E6B3E /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A637611CED28C9005E6B3E /* Step.swift */; };
 		79AD623B1CEA79BA00D0D96F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AD623A1CEA79BA00D0D96F /* AppDelegate.swift */; };
-		79AD623D1CEA79BA00D0D96F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AD623C1CEA79BA00D0D96F /* ViewController.swift */; };
-		79AD62401CEA79BA00D0D96F /* Learnoid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79AD623E1CEA79BA00D0D96F /* Learnoid.xcdatamodeld */; };
 		79AD62421CEA79BA00D0D96F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79AD62411CEA79BA00D0D96F /* Assets.xcassets */; };
-		79AD62451CEA79BA00D0D96F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79AD62431CEA79BA00D0D96F /* Main.storyboard */; };
 		79AD62501CEA79BA00D0D96F /* LearnoidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AD624F1CEA79BA00D0D96F /* LearnoidTests.swift */; };
 		79AD625B1CEA79BA00D0D96F /* LearnoidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AD625A1CEA79BA00D0D96F /* LearnoidUITests.swift */; };
+		79AD626F1CEA7A5900D0D96F /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AD626B1CEA7A5900D0D96F /* ContainerViewController.swift */; };
+		79AD62711CEA7A5900D0D96F /* LessonsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AD626D1CEA7A5900D0D96F /* LessonsVC.swift */; };
+		79AD62751CEA7A8D00D0D96F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AD62741CEA7A8D00D0D96F /* Model.swift */; };
+		79AD62791CEA7A9F00D0D96F /* FolderMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AD62771CEA7A9F00D0D96F /* FolderMonitor.swift */; };
+		79AD627A1CEA7A9F00D0D96F /* CrossfadeStoryboardSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AD62781CEA7A9F00D0D96F /* CrossfadeStoryboardSegue.swift */; };
+		79AD62841CEA7AFF00D0D96F /* DDHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AD627F1CEA7AFF00D0D96F /* DDHotKeyCenter.m */; };
+		79AD62881CEA7B2000D0D96F /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AD62871CEA7B2000D0D96F /* AppKit.framework */; };
+		79AD628A1CEA7B2C00D0D96F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AD62891CEA7B2C00D0D96F /* Foundation.framework */; };
+		79AD628C1CEA7B3400D0D96F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AD628B1CEA7B3400D0D96F /* Cocoa.framework */; };
+		79AD628E1CEA7B3E00D0D96F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AD628D1CEA7B3E00D0D96F /* Parse.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		79EEA7781CEAA9DF008FECF1 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EEA7771CEAA9DF008FECF1 /* MainVC.swift */; };
+		79EEA7A11CEBD7C5008FECF1 /* WebsiteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EEA7A01CEBD7C5008FECF1 /* WebsiteVC.swift */; };
+		DFC6831B9055C4651803BA7F /* Pods_LearnoidTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3D71C6A99CF72D347D48AB /* Pods_LearnoidTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +53,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10960B6DBC90F7D42C3D6E79 /* Pods-Learnoid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learnoid.release.xcconfig"; path = "Pods/Target Support Files/Pods-Learnoid/Pods-Learnoid.release.xcconfig"; sourceTree = "<group>"; };
+		13CEA17D2A0487A51F08D1F4 /* Pods-LearnoidUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnoidUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnoidUITests/Pods-LearnoidUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2038A8369DD30BAE8BB14929 /* Pods-LearnoidUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnoidUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnoidUITests/Pods-LearnoidUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5D8A722CF06AA16DAE27FFB4 /* Pods-LearnoidTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnoidTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnoidTests/Pods-LearnoidTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F760A1E12AE56953DDBF7EF /* Pods_Learnoid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Learnoid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D647537094985E68FC5CF6 /* Pods-Learnoid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learnoid.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Learnoid/Pods-Learnoid.debug.xcconfig"; sourceTree = "<group>"; };
+		792F9CF41CEA7F7A00AFE97C /* Learnoid-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Learnoid-Bridging-Header.h"; sourceTree = "<group>"; };
+		792F9CF61CEA848200AFE97C /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "../Bridging-Header.h"; sourceTree = "<group>"; };
+		79A637611CED28C9005E6B3E /* Step.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
 		79AD62371CEA79BA00D0D96F /* Learnoid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Learnoid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79AD623A1CEA79BA00D0D96F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		79AD623C1CEA79BA00D0D96F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		79AD623F1CEA79BA00D0D96F /* Learnoid.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Learnoid.xcdatamodel; sourceTree = "<group>"; };
 		79AD62411CEA79BA00D0D96F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		79AD62441CEA79BA00D0D96F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79AD62461CEA79BA00D0D96F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79AD624B1CEA79BA00D0D96F /* LearnoidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnoidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79AD624F1CEA79BA00D0D96F /* LearnoidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnoidTests.swift; sourceTree = "<group>"; };
@@ -47,6 +73,33 @@
 		79AD62561CEA79BA00D0D96F /* LearnoidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnoidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79AD625A1CEA79BA00D0D96F /* LearnoidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnoidUITests.swift; sourceTree = "<group>"; };
 		79AD625C1CEA79BA00D0D96F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79AD62681CEA79E500D0D96F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		79AD626B1CEA7A5900D0D96F /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		79AD626C1CEA7A5900D0D96F /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		79AD626D1CEA7A5900D0D96F /* LessonsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonsVC.swift; sourceTree = "<group>"; };
+		79AD62741CEA7A8D00D0D96F /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		79AD62771CEA7A9F00D0D96F /* FolderMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolderMonitor.swift; sourceTree = "<group>"; };
+		79AD62781CEA7A9F00D0D96F /* CrossfadeStoryboardSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossfadeStoryboardSegue.swift; sourceTree = "<group>"; };
+		79AD627D1CEA7AFF00D0D96F /* DDHotKey_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHotKey_Prefix.pch; sourceTree = "<group>"; };
+		79AD627E1CEA7AFF00D0D96F /* DDHotKeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHotKeyCenter.h; sourceTree = "<group>"; };
+		79AD627F1CEA7AFF00D0D96F /* DDHotKeyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHotKeyCenter.m; sourceTree = "<group>"; };
+		79AD62801CEA7AFF00D0D96F /* DDHotKeyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHotKeyTextField.h; sourceTree = "<group>"; };
+		79AD62811CEA7AFF00D0D96F /* DDHotKeyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHotKeyTextField.m; sourceTree = "<group>"; };
+		79AD62821CEA7AFF00D0D96F /* DDHotKeyUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHotKeyUtilities.h; sourceTree = "<group>"; };
+		79AD62831CEA7AFF00D0D96F /* DDHotKeyUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHotKeyUtilities.m; sourceTree = "<group>"; };
+		79AD62871CEA7B2000D0D96F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		79AD62891CEA7B2C00D0D96F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79AD628B1CEA7B3400D0D96F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		79AD628D1CEA7B3E00D0D96F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = System/Library/Frameworks/Parse.framework; sourceTree = SDKROOT; };
+		79AD62941CEA7B9A00D0D96F /* Lesson+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lesson+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		79AD62961CEA7B9A00D0D96F /* Lesson(object).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lesson(object).swift"; sourceTree = "<group>"; };
+		79AD629D1CEA7D0300D0D96F /* InternalTester-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InternalTester-Bridging-Header.h"; sourceTree = "<group>"; };
+		79EEA7771CEAA9DF008FECF1 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		79EEA7A01CEBD7C5008FECF1 /* WebsiteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebsiteVC.swift; path = ../WebsiteVC.swift; sourceTree = "<group>"; };
+		8BDDB9515F046A8DE2960FE2 /* Pods-LearnoidTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnoidTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnoidTests/Pods-LearnoidTests.release.xcconfig"; sourceTree = "<group>"; };
+		A2398AF35D450DCC4F838779 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8F67F22CDBEC0F976C47E89 /* Pods_LearnoidUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnoidUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3D71C6A99CF72D347D48AB /* Pods_LearnoidTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnoidTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +107,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79AD628E1CEA7B3E00D0D96F /* Parse.framework in Frameworks */,
+				79AD628C1CEA7B3400D0D96F /* Cocoa.framework in Frameworks */,
+				79AD628A1CEA7B2C00D0D96F /* Foundation.framework in Frameworks */,
+				79AD62881CEA7B2000D0D96F /* AppKit.framework in Frameworks */,
+				6608488DB0CF4353EA1CB00F /* Pods_Learnoid.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFC6831B9055C4651803BA7F /* Pods_LearnoidTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +127,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				775DE439BA8BB920A454C88C /* Pods_LearnoidUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34965B404F828D0DE2B0153B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2398AF35D450DCC4F838779 /* Pods.framework */,
+				6F760A1E12AE56953DDBF7EF /* Pods_Learnoid.framework */,
+				CD3D71C6A99CF72D347D48AB /* Pods_LearnoidTests.framework */,
+				C8F67F22CDBEC0F976C47E89 /* Pods_LearnoidUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		793FA78A1CF0EC9100BB30DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79AD62411CEA79BA00D0D96F /* Assets.xcassets */,
+				79AD62461CEA79BA00D0D96F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		793FA78B1CF0ECED00BB30DC /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				79AD62381CEA79BA00D0D96F /* Products */,
+				79AD624E1CEA79BA00D0D96F /* LearnoidTests */,
+				79AD62591CEA79BA00D0D96F /* LearnoidUITests */,
+			);
+			name = Tests;
+			path = LearnoidUITests;
+			sourceTree = "<group>";
+		};
 		79AD622E1CEA79BA00D0D96F = {
 			isa = PBXGroup;
 			children = (
 				79AD62391CEA79BA00D0D96F /* Learnoid */,
-				79AD624E1CEA79BA00D0D96F /* LearnoidTests */,
-				79AD62591CEA79BA00D0D96F /* LearnoidUITests */,
-				79AD62381CEA79BA00D0D96F /* Products */,
+				793FA78B1CF0ECED00BB30DC /* Tests */,
+				34965B404F828D0DE2B0153B /* Frameworks */,
+				C55AD98FDF4DAD84270A146B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,17 +183,21 @@
 				79AD62561CEA79BA00D0D96F /* LearnoidUITests.xctest */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		79AD62391CEA79BA00D0D96F /* Learnoid */ = {
 			isa = PBXGroup;
 			children = (
+				79AD62681CEA79E500D0D96F /* Main.storyboard */,
+				79AD626A1CEA7A4C00D0D96F /* View Controllers */,
 				79AD623A1CEA79BA00D0D96F /* AppDelegate.swift */,
-				79AD623C1CEA79BA00D0D96F /* ViewController.swift */,
-				79AD62411CEA79BA00D0D96F /* Assets.xcassets */,
-				79AD62431CEA79BA00D0D96F /* Main.storyboard */,
-				79AD62461CEA79BA00D0D96F /* Info.plist */,
-				79AD623E1CEA79BA00D0D96F /* Learnoid.xcdatamodeld */,
+				79AD62761CEA7A9300D0D96F /* Extensions */,
+				79AD62731CEA7A8000D0D96F /* Models */,
+				79AD627B1CEA7AC200D0D96F /* Frameworks */,
+				793FA78A1CF0EC9100BB30DC /* Supporting Files */,
+				79AD629C1CEA7CF400D0D96F /* Headers */,
+				79AD62921CEA7B8200D0D96F /* Classes */,
 			);
 			path = Learnoid;
 			sourceTree = "<group>";
@@ -113,7 +208,8 @@
 				79AD624F1CEA79BA00D0D96F /* LearnoidTests.swift */,
 				79AD62511CEA79BA00D0D96F /* Info.plist */,
 			);
-			path = LearnoidTests;
+			name = LearnoidTests;
+			path = ../LearnoidTests;
 			sourceTree = "<group>";
 		};
 		79AD62591CEA79BA00D0D96F /* LearnoidUITests */ = {
@@ -122,7 +218,96 @@
 				79AD625A1CEA79BA00D0D96F /* LearnoidUITests.swift */,
 				79AD625C1CEA79BA00D0D96F /* Info.plist */,
 			);
-			path = LearnoidUITests;
+			name = LearnoidUITests;
+			sourceTree = "<group>";
+		};
+		79AD626A1CEA7A4C00D0D96F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				79EEA7A01CEBD7C5008FECF1 /* WebsiteVC.swift */,
+				79A637611CED28C9005E6B3E /* Step.swift */,
+				79AD626B1CEA7A5900D0D96F /* ContainerViewController.swift */,
+				79EEA7771CEAA9DF008FECF1 /* MainVC.swift */,
+				79AD626C1CEA7A5900D0D96F /* CreateViewController.swift */,
+				79AD626D1CEA7A5900D0D96F /* LessonsVC.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		79AD62731CEA7A8000D0D96F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				79AD623E1CEA79BA00D0D96F /* Learnoid.xcdatamodeld */,
+				79AD62961CEA7B9A00D0D96F /* Lesson(object).swift */,
+				79AD62741CEA7A8D00D0D96F /* Model.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		79AD62761CEA7A9300D0D96F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				79AD62771CEA7A9F00D0D96F /* FolderMonitor.swift */,
+				79AD62781CEA7A9F00D0D96F /* CrossfadeStoryboardSegue.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		79AD627B1CEA7AC200D0D96F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79AD628D1CEA7B3E00D0D96F /* Parse.framework */,
+				79AD628B1CEA7B3400D0D96F /* Cocoa.framework */,
+				79AD62891CEA7B2C00D0D96F /* Foundation.framework */,
+				79AD62871CEA7B2000D0D96F /* AppKit.framework */,
+				79AD627C1CEA7AFF00D0D96F /* DDHotKey */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79AD627C1CEA7AFF00D0D96F /* DDHotKey */ = {
+			isa = PBXGroup;
+			children = (
+				79AD627D1CEA7AFF00D0D96F /* DDHotKey_Prefix.pch */,
+				79AD627E1CEA7AFF00D0D96F /* DDHotKeyCenter.h */,
+				79AD627F1CEA7AFF00D0D96F /* DDHotKeyCenter.m */,
+				79AD62801CEA7AFF00D0D96F /* DDHotKeyTextField.h */,
+				79AD62811CEA7AFF00D0D96F /* DDHotKeyTextField.m */,
+				79AD62821CEA7AFF00D0D96F /* DDHotKeyUtilities.h */,
+				79AD62831CEA7AFF00D0D96F /* DDHotKeyUtilities.m */,
+			);
+			path = DDHotKey;
+			sourceTree = "<group>";
+		};
+		79AD62921CEA7B8200D0D96F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				79AD62941CEA7B9A00D0D96F /* Lesson+CoreDataProperties.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		79AD629C1CEA7CF400D0D96F /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				792F9CF61CEA848200AFE97C /* Bridging-Header.h */,
+				792F9CF41CEA7F7A00AFE97C /* Learnoid-Bridging-Header.h */,
+				79AD629D1CEA7D0300D0D96F /* InternalTester-Bridging-Header.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		C55AD98FDF4DAD84270A146B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78D647537094985E68FC5CF6 /* Pods-Learnoid.debug.xcconfig */,
+				10960B6DBC90F7D42C3D6E79 /* Pods-Learnoid.release.xcconfig */,
+				5D8A722CF06AA16DAE27FFB4 /* Pods-LearnoidTests.debug.xcconfig */,
+				8BDDB9515F046A8DE2960FE2 /* Pods-LearnoidTests.release.xcconfig */,
+				13CEA17D2A0487A51F08D1F4 /* Pods-LearnoidUITests.debug.xcconfig */,
+				2038A8369DD30BAE8BB14929 /* Pods-LearnoidUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +317,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79AD625F1CEA79BA00D0D96F /* Build configuration list for PBXNativeTarget "Learnoid" */;
 			buildPhases = (
+				02BE42D9C987E7DF6144A551 /* 📦 Check Pods Manifest.lock */,
 				79AD62331CEA79BA00D0D96F /* Sources */,
 				79AD62341CEA79BA00D0D96F /* Frameworks */,
 				79AD62351CEA79BA00D0D96F /* Resources */,
+				0696C130D1FCFE7D1A7A061F /* 📦 Embed Pods Frameworks */,
+				4E6BDA1DEABC0FBF9398CABE /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +337,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79AD62621CEA79BA00D0D96F /* Build configuration list for PBXNativeTarget "LearnoidTests" */;
 			buildPhases = (
+				33D148D0963378B59036D087 /* 📦 Check Pods Manifest.lock */,
 				79AD62471CEA79BA00D0D96F /* Sources */,
 				79AD62481CEA79BA00D0D96F /* Frameworks */,
 				79AD62491CEA79BA00D0D96F /* Resources */,
+				65D65F3915316209C5D89F17 /* 📦 Embed Pods Frameworks */,
+				0829E5F8FCF2801A2B25C2C3 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +358,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79AD62651CEA79BA00D0D96F /* Build configuration list for PBXNativeTarget "LearnoidUITests" */;
 			buildPhases = (
+				9D6077287B8F1D1054844070 /* 📦 Check Pods Manifest.lock */,
 				79AD62521CEA79BA00D0D96F /* Sources */,
 				79AD62531CEA79BA00D0D96F /* Frameworks */,
 				79AD62541CEA79BA00D0D96F /* Resources */,
+				2D99137C50A5490149BB2670 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,7 +423,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				79AD62421CEA79BA00D0D96F /* Assets.xcassets in Resources */,
-				79AD62451CEA79BA00D0D96F /* Main.storyboard in Resources */,
+				791EB2611CEA939F00DC02BF /* Learnoid-Bridging-Header.h in Resources */,
+				791EB2631CEA96B500DC02BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,14 +444,148 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02BE42D9C987E7DF6144A551 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0696C130D1FCFE7D1A7A061F /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Learnoid/Pods-Learnoid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0829E5F8FCF2801A2B25C2C3 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearnoidTests/Pods-LearnoidTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D99137C50A5490149BB2670 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearnoidUITests/Pods-LearnoidUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33D148D0963378B59036D087 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4E6BDA1DEABC0FBF9398CABE /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Learnoid/Pods-Learnoid-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65D65F3915316209C5D89F17 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearnoidTests/Pods-LearnoidTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D6077287B8F1D1054844070 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		79AD62331CEA79BA00D0D96F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79AD623D1CEA79BA00D0D96F /* ViewController.swift in Sources */,
-				79AD62401CEA79BA00D0D96F /* Learnoid.xcdatamodeld in Sources */,
+				791EB2651CEAA02D00DC02BF /* DDHotKeyTextField.m in Sources */,
+				79EEA7781CEAA9DF008FECF1 /* MainVC.swift in Sources */,
+				791EB2641CEAA02600DC02BF /* DDHotKeyUtilities.m in Sources */,
+				79A637621CED28C9005E6B3E /* Step.swift in Sources */,
+				79EEA7A11CEBD7C5008FECF1 /* WebsiteVC.swift in Sources */,
+				791EB2601CEA92A300DC02BF /* CreateViewController.swift in Sources */,
+				79AD626F1CEA7A5900D0D96F /* ContainerViewController.swift in Sources */,
+				79AD62791CEA7A9F00D0D96F /* FolderMonitor.swift in Sources */,
+				79AD62711CEA7A5900D0D96F /* LessonsVC.swift in Sources */,
 				79AD623B1CEA79BA00D0D96F /* AppDelegate.swift in Sources */,
+				791EB2621CEA958C00DC02BF /* Lesson(object).swift in Sources */,
+				79AD627A1CEA7A9F00D0D96F /* CrossfadeStoryboardSegue.swift in Sources */,
+				79AD62841CEA7AFF00D0D96F /* DDHotKeyCenter.m in Sources */,
+				79AD62751CEA7A8D00D0D96F /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,17 +619,6 @@
 			targetProxy = 79AD62571CEA79BA00D0D96F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		79AD62431CEA79BA00D0D96F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				79AD62441CEA79BA00D0D96F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		79AD625D1CEA79BA00D0D96F /* Debug */ = {
@@ -388,30 +705,41 @@
 		};
 		79AD62601CEA79BA00D0D96F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78D647537094985E68FC5CF6 /* Pods-Learnoid.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Learnoid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = Pan.Learnoid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(inherited)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/panosstylianou/Desktop/Swift Projects/New Learnoid/Learnoid/Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		79AD62611CEA79BA00D0D96F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10960B6DBC90F7D42C3D6E79 /* Pods-Learnoid.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Learnoid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = Pan.Learnoid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(inherited)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/panosstylianou/Desktop/Swift Projects/New Learnoid/Learnoid/Bridging-Header.h";
 			};
 			name = Release;
 		};
 		79AD62631CEA79BA00D0D96F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D8A722CF06AA16DAE27FFB4 /* Pods-LearnoidTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -425,6 +753,7 @@
 		};
 		79AD62641CEA79BA00D0D96F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BDDB9515F046A8DE2960FE2 /* Pods-LearnoidTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -438,6 +767,7 @@
 		};
 		79AD62661CEA79BA00D0D96F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13CEA17D2A0487A51F08D1F4 /* Pods-LearnoidUITests.debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = LearnoidUITests/Info.plist;
@@ -450,6 +780,7 @@
 		};
 		79AD62671CEA79BA00D0D96F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2038A8369DD30BAE8BB14929 /* Pods-LearnoidUITests.release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = LearnoidUITests/Info.plist;
@@ -479,6 +810,7 @@
 				79AD62611CEA79BA00D0D96F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79AD62621CEA79BA00D0D96F /* Build configuration list for PBXNativeTarget "LearnoidTests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +819,7 @@
 				79AD62641CEA79BA00D0D96F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79AD62651CEA79BA00D0D96F /* Build configuration list for PBXNativeTarget "LearnoidUITests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +828,7 @@
 				79AD62671CEA79BA00D0D96F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

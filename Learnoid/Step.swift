@@ -7,3 +7,20 @@
 //
 
 import Foundation
+
+class Step {
+    let title: String
+    let number: Int
+    let description: String
+//    let code: String?
+//    let image: NSImage?
+    
+    required init(title: String, number: Int, description: String)
+    {
+        self.title = title
+        self.number = number
+        self.description = description
+    }
+
+    
+}

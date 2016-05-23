@@ -1,0 +1,6 @@
+framework module Pods_LearnoidUITests {
+  umbrella header "Pods-LearnoidUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

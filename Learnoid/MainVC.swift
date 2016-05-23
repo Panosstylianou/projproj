@@ -10,7 +10,7 @@ import Cocoa
 import Carbon
 import AppKit
 
-class ViewController: NSViewController {
+class MainVC: NSViewController {
 
     @IBOutlet weak var firstLabel: NSTextField!
     @IBOutlet weak var secondLabel: NSTextField!
@@ -144,6 +144,13 @@ class ViewController: NSViewController {
         }else{
             addPicture((largeImage?.image)!)
         }
+    }
+    @IBAction func goToWebsite
+        (sender: AnyObject) {
+        
+        
+        self.performSegueWithIdentifier("websiteSegue", sender: nil)
+
     }
     
     @IBAction func create(sender: AnyObject) {
